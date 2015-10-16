@@ -171,6 +171,7 @@ CONTAINER
 	background-image: url("../img/quote.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	opacity: 0.65;
 }
 
