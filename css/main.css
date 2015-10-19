@@ -31,6 +31,10 @@
 	float: right;
 }
 
+#nav ul {
+	margin: 0;
+}
+
 #nav li {
 	font-family: "Open Sans", sans-serif;
 	display: inline-block;
