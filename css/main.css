@@ -16,7 +16,7 @@
 }
 
 #header-content {
-	border-bottom: 1px solid #cacdcc;
+	border-bottom: 1px solid #ddd;
 }
 
 #header-content h1 {
@@ -25,6 +25,7 @@
 	font-size: 42px;
 	font-family: "Sacramento", cursive;
 	float: left;
+	color: #3A3A3A
 }
 
 #nav {
@@ -41,7 +42,15 @@
 	font-size: 14px;
 	line-height: 70px;
 	margin: 0 20px;
+}
 
+#nav a {
+	text-decoration: none;
+	color: #63C8DA;
+}
+
+#nav a:hover {
+	border-bottom: 1px solid #63C8DA;
 }
 
 
@@ -53,10 +62,33 @@
 }
 
 .month {
-	margin-top: 80px;
-	color: #3a3a3a;
+	margin-top: 50px;
+	color: #ABA9A9;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
 }
 
-ul {
+#main p {
+	color: #ABA9A9;
+	font-size: 13px;
+}
+
+#main ul {
 	list-style: none;
 }
+
+#main li {
+	margin: 20px 0;
+}
+
+#main a {
+	text-decoration: none;
+	color: #63C8DA;
+	font-size: 15px;
+}
+
+#main a:hover {
+	font-weight: bolder;
+}
+
