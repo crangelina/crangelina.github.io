@@ -59,9 +59,11 @@
 
 #main {
 	font-family: "Open Sans", sans-serif;
+	/*border-bottom: 1px solid #ddd;*/
+	padding-bottom: 50px;
 }
 
-.month {
+.heading {
 	margin-top: 50px;
 	color: #ABA9A9;
 	font-family: 'Montserrat', sans-serif;
@@ -82,13 +84,14 @@
 	margin: 20px 0;
 }
 
-#main a {
+#main a,
+h3 small {
 	text-decoration: none;
 	color: #63C8DA;
 	font-size: 15px;
 }
 
 #main a:hover {
-	font-weight: bolder;
+	border-bottom: 1px solid #63C8DA;
 }
 
