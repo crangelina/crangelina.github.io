@@ -74,6 +74,11 @@
 #main p {
 	color: #ABA9A9;
 	font-size: 13px;
+	margin: 0;
+}
+
+#main span {
+	margin-right: 20px;
 }
 
 #main ul {
@@ -84,8 +89,7 @@
 	margin: 20px 0;
 }
 
-#main a,
-h3 small {
+#main a {
 	text-decoration: none;
 	color: #63C8DA;
 	font-size: 15px;
