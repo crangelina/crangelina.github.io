@@ -77,8 +77,8 @@
 	margin: 0;
 }
 
-#main span {
-	margin-right: 20px;
+.moveover {
+	padding-left: 1.5px;
 }
 
 #main ul {
